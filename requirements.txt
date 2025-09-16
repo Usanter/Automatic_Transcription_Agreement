@@ -1,0 +1,11 @@
+pandas
+pyyaml
+pydub
+soundfile
+speechbrain
+torch
+torchvision
+transformers==4.51.3
+tqdm
+peft
+backoff

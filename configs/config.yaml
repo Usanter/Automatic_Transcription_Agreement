@@ -1,0 +1,5 @@
+asr_models:
+  - whisper
+  - phi4
+  - conformer
+threshold: 0.25
