@@ -9,16 +9,13 @@ Command line utilities for running several automatic speech recognition (ASR) mo
 - Progress-aware CSV pipelines that produce enriched datasets ready for downstream review.
 
 ## Requirements
-- Python 3.10+
+- Python 3.9+
 - System packages: `ffmpeg` (required by [pydub](https://github.com/jiaaro/pydub)), libsndfile (required by [SoundFile](https://pysoundfile.readthedocs.io/)).
 - Python packages: `torch`, `torchvision`, `transformers`, `pandas`, `numpy`, `pydub`, `soundfile`, `speechbrain`, `tqdm`, `pyyaml`.
 
 Install the Python dependencies with your preferred workflow, for example:
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
